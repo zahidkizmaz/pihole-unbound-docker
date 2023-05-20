@@ -20,6 +20,7 @@ services:
       PIHOLE_DNS_: 127.0.0.1#5335
 
       TZ: ${PIHOLE_TZ:-Europe/Berlin}
+      WEBTHEME: ${WEBTHEME:-default-dark}
       FTLCONF_LOCAL_IPV4: ${FTLCONF_LOCAL_IPV4}
       WEBPASSWORD: ${PIHOLE_WEBPASSWORD:-pihole}
 
